@@ -19,7 +19,7 @@
 
 ## Overview
 
-Archonism provides architects and firms with a dedicated tool to manage the lifecycle of their projects efficiently. It centralizes project information, client details, financial data (quotes, invoices, expenses), and project files, making day-to-day operations smoother and more organized. The primary target platform is Android.
+Archimate provides architects and firms with a dedicated tool to manage the lifecycle of their projects efficiently. It centralizes project information, client details, financial data (quotes, invoices, expenses), and project files, making day-to-day operations smoother and more organized. The primary target platform is Android.
 
 ## Key Features
 
@@ -29,6 +29,7 @@ Archonism provides architects and firms with a dedicated tool to manage the life
 * **Project Planning:**
     * Outline project phases and tasks.
     * Track progress against the plan.
+    * Do project planning in Kanban style (To Do, In Progress, Done) with a calendar view.
 * **Client Management:**
     * Store and manage client contact details and history.
     * Link clients to specific projects.
@@ -54,8 +55,8 @@ Archonism provides architects and firms with a dedicated tool to manage the life
     * **Database:** Supabase Postgres
     * **Authentication:** Supabase Auth
     * **File Storage:** Supabase Storage
-* **State Management:** Riverpod *(Chosen for consistency - stick to this)*
-* **Routing:** GoRouter *(Recommended for declarative routing)*
+* **State Management:** Riverpod
+* **Routing:** GoRouter
 * **Build Tool:** Flutter SDK / Dart SDK
 
 ## Project Setup
